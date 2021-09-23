@@ -18,11 +18,11 @@ public class CaracteresEspeciales {
         // TODO code application logic here
         var centro= "CEEP";
         
-        System.out.println("\n"+centro);
-        System.out.println("\t"+centro);
-        System.out.println("   \b"+centro);
-        System.out.println(" ' "+centro);
-        System.out.println(" "+centro);
+        System.out.println("salto de linea\n"+centro);
+        System.out.println("tabulador\t"+centro);
+        System.out.println("retroceso   \b"+centro);
+        System.out.println(" \' "+centro);
+        System.out.println(" \" "+centro);
     }
     
 }
