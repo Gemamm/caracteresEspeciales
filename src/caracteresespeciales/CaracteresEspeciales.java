@@ -20,9 +20,9 @@ public class CaracteresEspeciales {
         
         System.out.println("salto de linea\n"+centro);
         System.out.println("tabulador\t"+centro);
-        System.out.println("retroceso   \b"+centro);
-        System.out.println(" \' "+centro);
-        System.out.println(" \" "+centro);
+        System.out.println("retroceso  \b\b"+centro);
+        System.out.println("Comilla simple: \'"+centro);
+        System.out.println(" Comilla doble: \""+centro);
     }
     
 }
